@@ -1,0 +1,148 @@
+.signupPage {
+    background-color: #fcfcfc;
+    overflow: hidden;
+    padding: 27px 80px 102px 0;
+    height: 600px;
+  }
+  .contentWrapper {
+    display: flex;
+    gap: 20px;
+  }
+  .imageSection {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+  
+  .logo {
+    aspect-ratio: 4.85;
+    object-fit: contain;
+    object-position: center;
+    width: 102px;
+    margin-left: 40px;
+    max-width: 100%;
+  }
+  
+  .illustration {
+    aspect-ratio: 0.97;
+    object-fit: contain;
+    object-position: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 27px;
+    margin-top: 54px;
+  }
+  
+  .formSection {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 40px;
+    margin-top: 60px;
+    padding: 20px;
+  }
+  
+  .formHeader {
+    display: flex;
+    gap: 21px;
+    width: 90%;
+    font-family: Inter, sans-serif;
+  }
+  
+  .title {
+    color: #141e35;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: -0.72px;
+  }
+  
+  .subtitle {
+    color: #65758b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 12px;
+  }
+  
+  .decorativeIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 26px;
+    align-self: start;
+    margin-top: 35px;
+  }
+  
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 32px;
+  }
+  
+  .formOptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #65758b;
+    font: 500 14px/1 Inter, sans-serif;
+  }
+  
+  .loginPrompt {
+    margin-top: 20px;
+    text-align: center;
+    font: 14px/1 Inter, sans-serif;
+    color: #65758b;
+  }
+  
+  .divider {
+    color: #65758b;
+    text-align: center;
+    margin-top: 15px;
+    font: 700 16px Inter, sans-serif;
+  }
+
+  /* Media Query */
+  @media (max-width: 991px) {
+    .signupPage {
+      padding: 0 20px 100px 0;
+    }
+  }
+  @media (max-width: 991px) {
+    .contentWrapper {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  @media (max-width: 991px) {
+    .imageSection {
+      width: 100%;
+    }
+  }
+  @media (max-width: 991px) {
+    .logo {
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 991px) {
+    .illustration {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 991px) {
+    .formSection {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }

@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex:1;
+  padding: 20px;
+}
+
+.with-sidebar {
+  display: flex;
+}
+
+.with-sidebar > * {
+  flex: 1;
+}
